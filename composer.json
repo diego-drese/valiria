@@ -1,6 +1,8 @@
 {
     "name": "diego-drese/valiria",
     "description": "Sanctum Auth ACL",
+    "keywords": ["package", "laravel", "sanctum", "acl"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Diego Neumann",
