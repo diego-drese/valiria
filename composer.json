@@ -1,0 +1,31 @@
+{
+    "name": "diego-drese/valiria",
+    "description": "Sanctum Auth ACL",
+    "authors": [
+        {
+            "name": "Diego Neumann",
+            "email": "diego-neumann@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^6.0|^7.0|^9.17",
+        "fruitcake/laravel-cors": "^1.0|^3.0",
+        "laravel/sanctum": "^2.0",
+        "laravel/tinker": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Valiria\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Valiria\\Providers\\AuthServiceProvider",
+                "Valiria\\Providers\\RouteServiceProvider"
+            ]
+        }
+},
+"minimum-stability": "dev"
+}
